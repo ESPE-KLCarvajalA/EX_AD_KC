@@ -1,6 +1,4 @@
 const { Sequelize, Model, DataTypes } = require('sequelize');
-<<<<<<< HEAD
-=======
 const USER_TABLE = 'users';
 const UserSchema = {
   id: {
@@ -43,4 +41,3 @@ class User extends Model {
   }
 }
 module.exports = { USER_TABLE, User, UserSchema };
->>>>>>> e9876bf46bd904afb7bd0e5edff48bdfd4304a1e
